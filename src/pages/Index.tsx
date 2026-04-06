@@ -4,12 +4,14 @@ import ArchitectureSection from "@/components/ArchitectureSection";
 import CodeSection from "@/components/CodeSection";
 import ResultsSection from "@/components/ResultsSection";
 import DemoSection from "@/components/DemoSection";
+import DatasetSection from "@/components/DatasetSection";
 
 const Index = () => {
   return (
     <main className="min-h-screen">
       <HeroSection />
       <MetricsSection />
+      <DatasetSection />
       <ArchitectureSection />
       <CodeSection />
       <DemoSection />
