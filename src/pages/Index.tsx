@@ -3,6 +3,7 @@ import MetricsSection from "@/components/MetricsSection";
 import ArchitectureSection from "@/components/ArchitectureSection";
 import CodeSection from "@/components/CodeSection";
 import ResultsSection from "@/components/ResultsSection";
+import DemoSection from "@/components/DemoSection";
 
 const Index = () => {
   return (
