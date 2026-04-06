@@ -12,6 +12,7 @@ const Index = () => {
       <MetricsSection />
       <ArchitectureSection />
       <CodeSection />
+      <DemoSection />
       <ResultsSection />
 
       <footer className="py-12 px-6 border-t border-border">
