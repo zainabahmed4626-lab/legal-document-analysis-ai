@@ -17,6 +17,7 @@ const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
   const [activeId, setActiveId] = useState("hero");
   const [mobileOpen, setMobileOpen] = useState(false);
+  const { theme, toggleTheme } = useTheme();
 
   useEffect(() => {
     const onScroll = () => {
